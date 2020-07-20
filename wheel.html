@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="window"></div>
+    <script src="./js/animate.js"></script>
+    <script src="./js/wheel.js"></script>
+
+    <script>
+        wheel(".window", {
+            imgs: ["https://img.alicdn.com/tfs/TB1ftPuNLb2gK0jSZK9XXaEgFXa-1130-500.jpg_q100.jpg_.webp", "https://aecpm.alicdn.com/simba/img/TB1W4nPJFXXXXbSXpXXSutbFXXX.jpg", "http://img.alicdn.com/imgextra/i2/173/O1CN01u9Zdl91D9H87XGT9w_!!173-0-luban.jpg_q100.jpg_.webp"],
+            imgColor: ["#f34416", "#e8e8e8", "#0aaf00"],
+            links: ["http://baidu.com", "http://tmall.com", "http://lol.qq.com"],
+            imgSize: [1000, 500],
+            btnColor: "blue",
+            btnActive: "red",
+            btnPos: ["center", "10"]
+        })
+    </script>
+</body>
+
+</html>
